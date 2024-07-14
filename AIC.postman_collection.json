@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "87f14ba4-efa6-457c-8e2e-a8f230f7e87f",
+		"name": "AIC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19521077"
+	},
+	"item": [
+		{
+			"name": "aic",
+			"item": [
+				{
+					"name": "get random image annotation",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\n        \"email\":\"test\",\n        \"first_name\": \"Mina\",\n        \"last_name\": \"Ghaly\",\n        \"password\": \"password\"\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v0/image_annotation/",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v0",
+								"image_annotation",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "classify random image annotation Copy",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"image\": 4793,\n  \"category\": \"dog\",\n  \"extra_text\": \"good dog.\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v0/image_annotation/",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v0",
+								"image_annotation",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get stats by category",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\n        \"email\": \"aboda@gmail.com\",\n       \"domains\":[\"ich.dvo.ru\", \"yandex.by\", \"numericable.fr\", \"test.com\", \"another.com\"]\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v0/stats/",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v0",
+								"stats",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get stats",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\n        \"email\": \"aboda@gmail.com\",\n       \"domains\":[\"ich.dvo.ru\", \"yandex.by\", \"numericable.fr\", \"test.com\", \"another.com\"]\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v0/stats/",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v0",
+								"stats",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
