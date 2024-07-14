@@ -11,6 +11,8 @@
   - [Annotation Endpoints](#annotation-endpoints)
   - [Stats Endpoints](#stats-endpoints)
 
+![-----------------------------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ## Overview
 
 Image Annotation Web Service is designed to facilitate image annotation tasks. It provides a RESTful API for managing annotations, categories, and statistics.
