@@ -7,7 +7,6 @@
   - [Virtual Environment Setup](#virtual-environment-setup)
   - [Installing Dependencies and Running the Server](#installing-dependencies-and-running-the-server)
 - [Frontend Setup 🌐](#frontend-setup)
-  - [Installing Dependencies and Running the Frontend](#installing-dependencies-and-running-the-frontend)
 - [API Documentation](#api-documentation)
   - [Annotation Endpoints](#annotation-endpoints)
   - [Stats Endpoints](#stats-endpoints)
@@ -23,7 +22,7 @@ Image Annotation Web Service is designed to facilitate image annotation tasks. I
 5. Detailed API documentation for seamless integration.
 
 **Testing Endpoints:**
-- To test the API endpoints, you can import the [Postman collection](Image_Annotation_Web_Service.postman_collection.json) provided in the repository and try the endpoints in Postman.
+- To test the API endpoints, you can import the [Postman collection](AIC.postman_collection.json) provided in the repository and try the endpoints in Postman.
 
 **API Flow:**
 1. **Annotate Image:**
@@ -39,7 +38,7 @@ Image Annotation Web Service is designed to facilitate image annotation tasks. I
 1. Clone the repository and move to the project directory:
 
     ```bash
-    git clone https://github.com/yourusername/Image-Annotation-Web-Service.git
+    git clone https://github.com/Mohamad-Aboda/Image-Annotation-Web-Service
     cd Image-Annotation-Web-Service
     ```
 
@@ -81,7 +80,7 @@ Image Annotation Web Service is designed to facilitate image annotation tasks. I
 
     The application will be accessible at [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
-## Frontend Setup 🌐
+## Frontend Setup
 
 To run the React.js frontend for the Image Annotation Web Service, follow these steps:
 
