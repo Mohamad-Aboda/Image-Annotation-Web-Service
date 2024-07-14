@@ -1,0 +1,40 @@
+# Dependency directories
+/node_modules
+
+# Production build directory
+/build
+
+# dotenv environment variables file
+.env
+
+# IDE files
+*.iml
+*.idea
+/.vscode
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+
+# Virtual environment
+venv/
+.env
+
+# Compiled Python files
+*.pyc
+
+# Byte-compiled files
+__pycache__/
+
+# Secret key (keep it secret, keep it safe!)
+secret_key.txt
+
+# IDE files
+*.pycharm*
+*.vscode
+
+# SQLite database file
+db.sqlite3
